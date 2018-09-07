@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OO'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.swift_version    = '4.2'
   s.summary          = 'Boilerplate helper, extensions and many more to kickstart iOS apps.'
 
