@@ -1,0 +1,22 @@
+{
+  "name": "OO",
+  "version": "0.1.0",
+  "summary": "A short description of OO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/premieredesign/OO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "premieredesign": "iamcmj@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/premieredesign/OO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OO/Classes/**/*"
+}

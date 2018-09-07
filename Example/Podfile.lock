@@ -1,0 +1,16 @@
+PODS:
+  - OO (0.1.0)
+
+DEPENDENCIES:
+  - OO (from `../`)
+
+EXTERNAL SOURCES:
+  OO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OO: 5a5df0f886d1881684b4971b8dff846c1de098fb
+
+PODFILE CHECKSUM: 3bd3077c17cbfa7288f92bdabf4a1d71fbdfb9dc
+
+COCOAPODS: 1.4.0
