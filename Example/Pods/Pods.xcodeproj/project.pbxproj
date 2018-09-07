@@ -19,7 +19,6 @@
 		CA6386D421431EA500FC5C74 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6386D321431EA500FC5C74 /* Base.swift */; };
 		CA6386D721431FA100FC5C74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6386D621431FA100FC5C74 /* Extensions.swift */; };
 		DC18B6E5531514F0BC91B561EE64EC85 /* Pods-OO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D86010B4C73D72EE2B60D4114170614F /* Pods-OO_Tests-dummy.m */; };
-		DCE57165574838202908E16AE768874C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E720FD6C62F4C172FED2B5F09272B406 /* ReplaceMe.swift */; };
 		FEA2031D847066A5E2BF4D8CB40BCEBD /* Pods-OO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF15B6F8C599CAAA7A178A1CDE814075 /* Pods-OO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -70,7 +69,6 @@
 		D796C1184853DAC298C2F342793F9CDE /* Pods-OO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D86010B4C73D72EE2B60D4114170614F /* Pods-OO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OO_Tests-dummy.m"; sourceTree = "<group>"; };
 		E2CEAFB0F6818C39F07801D0A2B906D8 /* Pods-OO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E720FD6C62F4C172FED2B5F09272B406 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OO/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E9D092CCEB588F9A73BFF5794C8C6773 /* Pods-OO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OO_Example.modulemap"; sourceTree = "<group>"; };
 		FF15B6F8C599CAAA7A178A1CDE814075 /* Pods-OO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OO_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,10 +170,7 @@
 		B7EB0B3D47CFEDAD5B0A40BC026E8AAA /* OO */ = {
 			isa = PBXGroup;
 			children = (
-				CA6386D521431F8300FC5C74 /* Extensions */,
-				CA6386D221431E7D00FC5C74 /* Helpers */,
-				CA6386CA21431C4D00FC5C74 /* GenericBase */,
-				E720FD6C62F4C172FED2B5F09272B406 /* ReplaceMe.swift */,
+				CA6D823321432E6B002A6317 /* Classes */,
 				79656FF694E0C55DBCB705AB265D37D1 /* Pod */,
 				BA27426A60EC112659EBAEC05FE0388C /* Support Files */,
 			);
@@ -252,6 +247,16 @@
 				CA6386D621431FA100FC5C74 /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA6D823321432E6B002A6317 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA6386CA21431C4D00FC5C74 /* GenericBase */,
+				CA6386D221431E7D00FC5C74 /* Helpers */,
+				CA6386D521431F8300FC5C74 /* Extensions */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CD45242E54C8C6993A4908882FE616B9 /* Pods-OO_Example */ = {
@@ -407,7 +412,6 @@
 				CA6386D721431FA100FC5C74 /* Extensions.swift in Sources */,
 				CA6386CD21431CB200FC5C74 /* GenericConfigurations.swift in Sources */,
 				CA6386D421431EA500FC5C74 /* Base.swift in Sources */,
-				DCE57165574838202908E16AE768874C /* ReplaceMe.swift in Sources */,
 				CA6386D121431E0D00FC5C74 /* GenericController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
