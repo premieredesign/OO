@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/OO.svg?style=flat)](https://cocoapods.org/pods/OO)
 [![Platform](https://img.shields.io/cocoapods/p/OO.svg?style=flat)](https://cocoapods.org/pods/OO)
 
+## Description
+
+OO stands for Operation Override, which is a framework designed to make developing an ease with helpers, extension, custom functions and many more
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
